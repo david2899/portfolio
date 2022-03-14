@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Oswald:wght@300&display=swap");
+
+.content-social-media {
+    margin-top: 20px;
+}
+.content-social-media h4 {
+    margin-left: 10%;
+    font-family: "Oswald", sans-serif;
+}
+.icon-social {
+    width: 30px;
+    height: 25px;
+}
+.section-links {
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin: 0 auto !important;
+    display: flex;
+    justify-content: center;
+}
+.section-links h5 {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.social {
+    margin: 40px 40px 0 40px;
+    text-align: center;
+}

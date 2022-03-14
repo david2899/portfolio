@@ -1,0 +1,17 @@
+.content-emails h4 {
+    margin-top: 20px;
+}
+.content-emails h4 {
+    margin-left: 10%;
+    font-family: "Oswald", sans-serif;
+}
+.content-others{
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.other {
+    margin: 40px 40px 0 40px;
+    text-align: center;
+}

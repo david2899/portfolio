@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Oswald:wght@300&display=swap");
+
+.content-page h2 {
+    font-family: "Oswald", sans-serif;
+    text-decoration: underline;
+    text-align: initial;
+    margin-left: 5%;
+}
+.icon-title {
+    margin-right: 5px;
+}
+@media screen and (min-width: 1200px) { 
+    .content-page  {
+        margin-bottom: 60px !important;
+    }
+}

@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Oswald:wght@300&display=swap");
+
+.content-project {
+  max-width: 1500px;
+  margin: 0 auto !important;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "Oswald", sans-serif;
+  align-items: center;
+}
+.as {
+    margin-top: 5px;
+}
+.icon-project {
+    margin-right: 8px;
+}
+.icon-name-project {
+  padding: 0px;
+}
+.text-footer{
+  font-family: "Oswald", sans-serif;
+  font-size: 1.5rem !important;
+}
+.content-projects {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+}
+.content-project h4 {
+  margin-bottom: 0px;
+  font-size: 1.8rem;
+  margin-top: 5px;
+}
+@media screen and (max-width: 432px) {
+    .as {
+        font-size: 0.9rem;
+    }
+  .content-projects {
+    text-align: center;
+    margin: 10px;
+  }
+  .content-project h4 {
+    margin-bottom: 0px;
+    font-size: 1.2rem;
+    margin-top: 5px;
+  }
+  .content-project a {
+    font-size: 0.9rem;
+  }
+}

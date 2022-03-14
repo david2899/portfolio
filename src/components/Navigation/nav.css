@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Oswald:wght@300&display=swap");
+
+#navbar {
+  background-color: #000000;
+  position: sticky;
+  width: 100% !important;
+  z-index: 99;
+  top: 0;
+}
+.link-active {
+  width: 70%;
+  margin: 0 auto !important;
+  border-top: 1px solid rgb(57, 220, 36) !important;
+  z-index: 99;
+}
+.navbar-brand img {
+  display: none;
+}
+
+.nav-link {
+  font-weight: 500;
+  color: rgb(57, 220, 36) !important;
+}
+
+.navbar-toggler {
+  color: #fff !important;
+  background-color: #fff !important;
+}
+.logo-nav {
+  width: 50px;
+  background-color: #fff !important;
+  border-radius: 50%;
+  border: 1px solid #fff !important;
+}
+
+@media screen and (max-width: 991px) {
+  .navbar-brand img {
+    margin-left: 5px !important;
+    display: block !important;
+    width: 50px;
+    background-color: #fff !important;
+    border-radius: 50%;
+    border: 1px solid #fff !important;
+  }
+  .logo-nav {
+    display: none !important;
+  }
+  .nav-link {
+    padding-left: 5px !important;
+  }
+  .link-active {
+    width: 50px;
+    margin-left: 7px !important;
+    border-top: 1px solid rgb(57, 220, 36) !important;
+    z-index: 99;
+  }
+}
