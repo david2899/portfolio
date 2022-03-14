@@ -8,7 +8,7 @@ import "./socialMedia.css";
 
 export const SocialMedia = () => {
   return (
-    <div className="content-social-media">
+    <div className="content-social-media container">
       <h4 className="mt-4">
         <span>
           <RiContactsFill style={{ marginRight: "3px", marginBottom: "6px" }} />

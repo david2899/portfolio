@@ -7,7 +7,7 @@ import "./others.css";
 
 export const Others = () => {
   return (
-    <div className="content-emails">
+    <div className="content-emails container">
       <h4>
         <span>
           <IoShareSocialSharp className="icon-social" />

@@ -15,7 +15,7 @@ export const Home = () => {
   return (
     <>
       <NavBar />
-      <section className="content-page">
+      <section className="content-page ">
         <Card />
         <hr />
         <h2 className="mb-4 mt-4">
@@ -40,6 +40,7 @@ export const Home = () => {
         </span>
           Contac</h2>
         <SocialMedia />
+        <hr />
         <Others />
       </section>
       <Footer />

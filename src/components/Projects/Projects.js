@@ -8,7 +8,7 @@ import "./projects.css";
 
 export const Projects = () => {
   return (
-    <div className="content-project">
+    <div className="content-project container">
       <div className="content-projects">
         <h4>
           <span className="icon-name-project">
