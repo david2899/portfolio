@@ -3,12 +3,20 @@ import { FaCalculator, FaGamepad, FaBaby } from "react-icons/fa";
 import {BsCurrencyExchange} from "react-icons/bs"
 import {GiGamepadCross} from "react-icons/gi"
 import { SiHiveBlockchain } from "react-icons/si";
+import { IoIosRocket } from "react-icons/io";
 import {RiStarSFill} from "react-icons/ri"
 import "./projects.css";
 
 export const Projects = () => {
   return (
-    <div className="content-project container">
+    <section className="principal-content-proyect">
+       <h2 className="title">
+          <span className="icon-title">
+            <IoIosRocket />
+          </span>
+          Projects
+        </h2>
+       <div className="content-project container">
       <div className="content-projects">
         <h4>
           <span className="icon-name-project">
@@ -135,5 +143,7 @@ export const Projects = () => {
       </div>
       <h4 className="text-footer">And other projects that I can not publish since they were created with all the copyright of the owner.</h4>
     </div>
+    </section>
+   
   );
 };

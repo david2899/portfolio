@@ -47,7 +47,7 @@ export const Card = () => {
           </div>
         </div>
       </div>
-      <section>
+      <section className="content-p">
         <p className="description container">
           From a very young age I started my curiosity and love for technology,
           at only 15 years old he already mastered technologies such as Word,

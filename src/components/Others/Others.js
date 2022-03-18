@@ -2,6 +2,7 @@ import React from "react";
 import { IoShareSocialSharp } from "react-icons/io5";
 import { BsFillTelephoneInboundFill, BsWhatsapp } from "react-icons/bs";
 import { HiLocationMarker } from "react-icons/hi";
+import {FaTelegramPlane} from "react-icons/fa"
 import { SiGmail } from "react-icons/si";
 import "./others.css";
 
@@ -52,7 +53,9 @@ export const Others = () => {
               +505 5801 1280
               <BsWhatsapp style={{ marginLeft: "4px", marginBottom: "6px" }} />
             </span>
-            <span>+505 8323 3684</span>
+            <span>+505 8323 3684
+            <FaTelegramPlane style={{ marginLeft: "4px", marginBottom: "6px" }} />
+            </span>
           </div>
         </div>
       </section>

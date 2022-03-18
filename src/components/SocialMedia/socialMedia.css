@@ -1,8 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Oswald:wght@300&display=swap");
 
-.content-social-media {
-    margin-top: 20px;
-}
 .content-social-media h4 {
     margin-left: 10%;
     font-family: "Oswald", sans-serif;
@@ -25,4 +22,12 @@
 .social {
     margin: 40px 40px 0 40px;
     text-align: center;
+}
+
+@media screen and (max-width: 850px) {
+    .container {
+      margin: 0  !important;
+      width: 100% !important;
+      max-width: 100% !important;
+    }
 }

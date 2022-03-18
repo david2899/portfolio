@@ -1,7 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Oswald:wght@300&display=swap");
 
+.contet-studies {
+    background-color: rgb(57, 220, 36);
+    padding-bottom: 20px;
+}
+.title {
+    margin-left: 5% !important;
+    color: #000;
+}
+.title-studies {
+    color: #000;
+    margin-left: 5%;
+}
 .content-1 {
     width: 100%;
+    color: #000;
     max-width: 1400px;
     margin: 0 auto !important; 
     align-items: center;
@@ -21,7 +34,7 @@
 }
 .icon-arrow {
    margin-top: 7px;
-   color: #5c5757;;
+   color: #000;
    margin-bottom: 7px;
 }
 @media screen and (max-width: 495px) {
